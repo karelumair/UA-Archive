@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "archive ua"
+version = "0.1.0"
+description = ""
+authors = ["umairkarel"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-auth = "^2.30.0"
+google-api-python-client = "^2.134.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
