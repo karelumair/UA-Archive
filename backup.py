@@ -224,7 +224,7 @@ if __name__ == "__main__":
                     ]
                 }
 
-                report_name = f"./reports/{view_details['name']}/{PERIOD}_{report}_{sub_report}.csv"
+                report_name = f"./temp_reports/{view_details['name']}/{PERIOD}_{report}_{sub_report}.csv"
 
                 try:
                     print(
